@@ -1,8 +1,8 @@
-/* .body{
+body {
     width: 1440px;
-    padding-left: 135px;
-    padding-right: 135px;
-} */
+    height: 6940px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -165,4 +165,95 @@ a {
     border-radius: 8px;
     background: #FF5400;
 }
+
 /* Choose Your Destination */
+.pp1 {
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.p1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.p2 {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* picture-collage */
+.pic-collage {
+    margin-top: 48px;
+    margin-right: 135px;
+    margin-left: 135px;
+
+}
+
+/* <!-- Why Choose Us --> */
+.Us {
+    margin-top: 100px;
+}
+
+.Us1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.Us2 {
+    margin-top: 24px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Why Choose Us Card */
+.card {
+    
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.card-1 {
+    padding-left:32px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-2 {
+    padding-left:32px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card-3 {
+    padding-left:32px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
