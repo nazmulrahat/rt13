@@ -1,7 +1,10 @@
-body {
-    width: 1440px;
-    height: 6940px;
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    font-family: "Mulish", sans-serif;
 }
+
 
 nav {
     display: flex;
@@ -137,7 +140,7 @@ a {
 
 .box11-h {
     color: #131318;
-    text-align: center;
+    /* text-align: center; */
     font-family: Mulish;
     font-size: 40px;
     font-style: normal;
@@ -387,21 +390,33 @@ a {
 }
 
 /*.... last.... */
+.lbm {
+    display: flex;
+    gap: 24px;
+}
+
 .lb {
+    padding-top: 40px;
+    padding-left: 40px;
     width: 474px;
     height: 422px;
     border-radius: 16px;
     border: 1px solid #FF5400;
+
 }
 
 .lbi {
+    padding-left: 327px;
+    padding-top: 200px;
     width: 672px;
     height: 422px;
     border-radius: 16px;
     background-image: url(Images/Rectangle\ 8\ \(1\).png);
+    background-repeat: no-repeat;
 }
 
 .text {
+
     width: 324px;
     height: 120px;
     transform: rotate(-19.628deg);
@@ -427,4 +442,145 @@ a {
     font-size: 32px;
     font-style: normal;
     font-weight: 800;
+}
+
+.Newsletter {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+.news {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.lin {
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.name,
+.email {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+
+}
+
+.Subscribe {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+/* footer */
+.footer {
+    width: 1440px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.ll {
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.AllRightsReserved {
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 576px) {
+    .box11 {
+        flex-direction: column;
+        /* width: 500px; */
+    }
+
+    .banner {
+        width: 500px;
+        height: 483px;
+        flex-direction: column;
+        padding: 0;
+
+    }
+
+    .banner-box,
+    .box11,
+    .lbm {
+        flex-direction: column;
+    }
+
+    .c11,
+    .c22,
+    .c33 {
+        flex-direction: column;
+    }
+
+    .card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .dl-card-1,
+    .dl-card-2 {
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 500px;
+        height: 500px;
+        border-radius: 16px;
+
+
+    }
+
+    .dc {
+        width: 303px;
+        height: 297px;
+    }
+
+    .lbi {
+        width: 500px;
+        background-size: 500px;
+        padding-left: 250px;
+        margin-bottom: 100px;
+    
+    }
+    .tr{
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 15.854px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .tr2{color: #FFF;
+        font-family: Mulish;
+        font-size: 21.138px;
+        font-style: normal;
+        font-weight: 800;
+
+    }
+
+    .text {
+        width: 214px;
+        height: 79px;
+    }
+
+    .footer {
+        width: 576px;
+    }
+
+
 }
