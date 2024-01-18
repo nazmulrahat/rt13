@@ -4,16 +4,19 @@
 *{
     font-family: "Mulish", sans-serif;
 }
-
+body{
+    width: auto;
+    
+}
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
 }
 
 .nav1 {
     display: flex;
-    padding-left: 135px;
+    padding-left: 5px;
     padding-top: 52px;
 
 
@@ -36,10 +39,10 @@ nav {
 }
 
 .nav2,
-a {
+a { margin-left: 50px;
     display: flex;
     text-decoration: none;
-    gap: 44px;
+    gap: 30px;
     padding: 10px 0px;
     justify-content: center;
     align-items: center;
@@ -58,7 +61,8 @@ a {
 /* header banner */
 
 .banner {
-    margin-left: 135px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 49px;
     width: 1170px;
     height: 500px;
@@ -121,9 +125,11 @@ a {
 
 /* Our Popular Tours */
 .box11 {
+    margin-right: auto;
+    margin-right: auto;
     padding-top: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
 }
 
 .box11-p {
@@ -196,9 +202,11 @@ a {
 
 /* picture-collage */
 .pic-collage {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 48px;
-    margin-right: 135px;
-    margin-left: 135px;
+    
 
 }
 
@@ -232,6 +240,17 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+.cd{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.mm{display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    /* justify-content: center; */
+    align-items: center;
+}
 
 .card-1 {
     padding-left: 32px;
@@ -262,6 +281,10 @@ a {
 }
 
 /* Deals & Discounts */
+.ccd{
+    margin-left: auto;
+    margin-right: auto;
+}
 .dl {
     text-align: center;
 }
@@ -287,13 +310,15 @@ a {
 /* <!-- dl card --> */
 .dl-card-1 {
     padding-top: 56px;
-    padding-left: 480px;
     padding-bottom: 55px;
     width: 1170px;
     height: 500px;
     background-image: url(Images/Group\ 39.png);
     background-repeat: no-repeat;
     border-radius: 16px;
+}
+.pbl{
+    padding-left: 400px;
 }
 
 .dc-m {
@@ -311,7 +336,7 @@ a {
 
 .dl-card-2 {
     padding-top: 56px;
-    padding-left: 56px;
+    /* padding-left: 56px; */
     padding-bottom: 55px;
     width: 1170px;
     height: 500px;
@@ -325,6 +350,7 @@ a {
 /* <!-- dl card in--> */
 
 .dc {
+    margin-left: 56px;
     padding-left: 50px;
     padding-top: 52px;
     text-align: left;
@@ -370,7 +396,12 @@ a {
     border-radius: 8px;
     background: #FF5400;
 }
-
+.ccd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /* See All Package */
 .btn-se {
     text-align: center;
@@ -392,6 +423,7 @@ a {
 /*.... last.... */
 .lbm {
     display: flex;
+    justify-content: center;
     gap: 24px;
 }
 
@@ -406,7 +438,7 @@ a {
 }
 
 .lbi {
-    padding-left: 327px;
+    /* padding-left: 327px; */
     padding-top: 200px;
     width: 672px;
     height: 422px;
@@ -485,6 +517,11 @@ a {
 
 /* footer */
 .footer {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 1440px;
     height: 502px;
     background: rgba(19, 19, 24, 0.05);
@@ -503,9 +540,21 @@ a {
     font-style: normal;
     font-weight: 300;
 }
-
+.fl{
+    justify-content: center;
+    align-items: center;
+}
+.k{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
     .box11 {
+        justify-content: center;
         flex-direction: column;
         /* width: 500px; */
     }
@@ -580,6 +629,7 @@ a {
 
     .footer {
         width: 576px;
+        height:200px ;
     }
 
 
