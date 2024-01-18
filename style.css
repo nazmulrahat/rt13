@@ -1,17 +1,18 @@
-
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
-*{
+
+* {
     font-family: "Mulish", sans-serif;
 }
-body{
+
+body {
     width: auto;
-    
+
 }
 
 nav {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
 .nav1 {
@@ -39,7 +40,8 @@ nav {
 }
 
 .nav2,
-a { margin-left: 50px;
+a {
+    margin-left: 50px;
     display: flex;
     text-decoration: none;
     gap: 30px;
@@ -129,7 +131,7 @@ a { margin-left: 50px;
     margin-right: auto;
     padding-top: 100px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
 .box11-p {
@@ -206,7 +208,7 @@ a { margin-left: 50px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 48px;
-    
+
 
 }
 
@@ -240,12 +242,15 @@ a { margin-left: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.cd{
+
+.cd {
     margin-left: auto;
     margin-right: auto;
-    
+
 }
-.mm{display: grid;
+
+.mm {
+    display: grid;
     margin-left: auto;
     margin-right: auto;
     /* justify-content: center; */
@@ -281,10 +286,11 @@ a { margin-left: 50px;
 }
 
 /* Deals & Discounts */
-.ccd{
+.ccd {
     margin-left: auto;
     margin-right: auto;
 }
+
 .dl {
     text-align: center;
 }
@@ -317,7 +323,8 @@ a { margin-left: 50px;
     background-repeat: no-repeat;
     border-radius: 16px;
 }
-.pbl{
+
+.pbl {
     padding-left: 400px;
 }
 
@@ -396,12 +403,14 @@ a { margin-left: 50px;
     border-radius: 8px;
     background: #FF5400;
 }
-.ccd{
+
+.ccd {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 /* See All Package */
 .btn-se {
     text-align: center;
@@ -447,8 +456,9 @@ a { margin-left: 50px;
     background-repeat: no-repeat;
 }
 
-.text {
 
+.text {
+    margin-left: 300px;
     width: 324px;
     height: 120px;
     transform: rotate(-19.628deg);
@@ -540,19 +550,23 @@ a { margin-left: 50px;
     font-style: normal;
     font-weight: 300;
 }
-.fl{
+
+.fl {
     justify-content: center;
     align-items: center;
 }
-.k{
+
+.k {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 @media screen and (max-width: 576px) {
-    nav{
+    nav {
         flex-direction: column;
     }
+
     .box11 {
         justify-content: center;
         flex-direction: column;
@@ -604,9 +618,10 @@ a { margin-left: 50px;
         background-size: 500px;
         padding-left: 250px;
         margin-bottom: 100px;
-    
+
     }
-    .tr{
+
+    .tr {
         color: #FFF;
         text-align: center;
         font-family: Mulish;
@@ -614,7 +629,9 @@ a { margin-left: 50px;
         font-style: normal;
         font-weight: 400;
     }
-    .tr2{color: #FFF;
+
+    .tr2 {
+        color: #FFF;
         font-family: Mulish;
         font-size: 21.138px;
         font-style: normal;
@@ -629,7 +646,7 @@ a { margin-left: 50px;
 
     .footer {
         width: 576px;
-        height:200px ;
+        height: 200px;
     }
 
 
